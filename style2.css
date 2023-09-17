@@ -13,14 +13,14 @@ body {
 
 .carousel-inner {
     height:  99vh;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 25px solid rgb(50, 47, 47);
+    width: 177.7vh;
+    border: 2.5vh solid rgb(50, 47, 47);
     box-shadow: 5px 5px 70px;
-    border-radius: 65px;
+    border-radius: 8vh;
     background-image: url(assets/images/lightbk.png);
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-item img {
@@ -29,25 +29,25 @@ body {
 
 .carousel-item {
     height: 100vh;
-    border-radius: 40px;
+    border-radius: 40vh;
 }
 
 .carousel-indicators{
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 50px;
+    width: 25vh;
+    height: 6.8vh;
 }
 
 .carousel-indicators li {
     border: 3px solid rgba(0, 0, 0, 0.247);
-    margin-top: 75px;
-    border-radius: 150px;
-    width: 23px;
-    height: 20px;
+    margin-top: 8.8vh;
+    border-radius: 10vh;
+    width: 3.5vh;
+    height: 3.5vh;
 }
 
 .description {
@@ -63,88 +63,78 @@ body {
     width: 100%;
     height: 100%;
     color: #fff;
-    font-size: 21px;
     font-weight: bolder;
 }
-.sinopse h1{
-    font-size: 100px;
-}
 .messengers {
-    width: 100%;
-    height: 600px;
+    width: 211vh;
+    height: 100vh;
 }
 .card-message{
-    width: 100%;
-    height: 60%;
+    width: 211vh;
+    height: 65vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .user-image {
-    width: 7%;
+    width: 15vh;
     height: 100%;
     display: flex;
     align-items: end;
-    padding-left: 10px;
+    padding-left: 1.1vh;
 }
 
 .cnt-user {
-    height: 25%;
-    width: 100%;
+    height: 13vh;
+    width: 13vh;
     background-color: rgb(219, 228, 219);
     display: flex;
     align-items: end;
     justify-content: center;
-    border-radius: 120px;
+    border-radius: 12vh;
     overflow: hidden;
     border: 1px solid #ada9a981;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.341);
 }
-.card-user {
-    width: 100%;
-    height: 19%;
-}
-
 .cnt-user i {
-    font-size: 62px;
-    color: #fff;
-    margin-bottom: -2px;
+    font-size: 9vh;
+    color: #fff;;
 }
 
 .container-ballon {
-    width: 93%;
+    width: 200vh;
     height: 100%;
     display: flex;
     align-items: end;
     justify-content: left;
-    padding-left: 50px;
+    padding-left: 7vh;
 }
 
 .ballons-card {
     background-color: #EDEEE6;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.341);
-    width: 60%;
-    height: 30%;
-    padding: 18px;
-    border-radius: 15px;
+    width: 145vh;
+    padding: 3vh;
+    border-radius: 2vh;
 }
 
 .ballons-card::before{
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 3vh;
+    height: 3vh;
     border-left: 1px solid rgba(0, 0, 0, 0.19);
     border-bottom: 1px solid rgba(0, 0, 0, 0.211);
-    left: 145px;
-    top: 387px;
+    left: 20.4vh;
+    top: 66vh;
     background-color: #EDEEE6;
     transform: rotate(45deg);
 }
 
 .ballons-card p {
-    font-size: 20px;
+    font-size: 5vh;
+    text-align: justify;
     font-family: "Rajdhani";
     color: #000;
 }
@@ -152,7 +142,7 @@ body {
 .head-chat {
     position: absolute;
     width: 100%;
-    height: 80px;
+    height: 13.5vh;
     background-color: #EDEEE6;
     top: 0;
     display: flex;
@@ -165,19 +155,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: 15px;
+    padding-right: 3vh;
 }
 
 .logo img {
-    width:70px;
-    border-radius: 60px;
-    margin-left: 10px;
+    width: 12vh;
+    border-radius: 6vh;
+    margin-left: 1vh;
     border: 1px solid rgba(142, 138, 138, 0.449);
-    box-shadow: 1px 1px 5px ;
+    box-shadow: 1px 1px 5px;
 }
 
 .group-name {
-    font-size: 35px;
+    font-size: 7vh;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -194,21 +184,21 @@ body {
 
 .group-name i {
     margin-left: auto;
-    padding-right: 20px;
+    padding-right: 10vh;
     cursor: pointer;
 }
 
 .foot-chat {
     width: 100%;
     position: absolute;
-    height: 100px;
+    height: 13.5vh;
     background-color: #EDEEE6;
     bottom: 0;
 }
 
 .options {
     width: 100%;
-    height: 65%;
+    height: 13.5vh;
     display: flex;
 }
 
@@ -220,14 +210,13 @@ body {
 }
 
 .tec {
-    width: 92%;
-    height: 70%;
+    width: 150vh;
+    height: 6.5vh;
     background-color: #fff;
     border: 1px solid #ada9a9;
     border-radius: 100px;
     display: flex;
     flex-direction: row;
-    padding-right: 150px;
 }
 
 .icon {
@@ -246,42 +235,42 @@ body {
     align-items: center;
 }
 .exp p{
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 2vh;
+    font-size: 3vh;
     font-weight: bold;
     font-family: "Rajdhani";
     border-right: 2px solid #000;
-    margin-right: 20px;
+    margin-right: 2vh;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
 }
 
 .icon i {
-    font-size: 30px;
+    font-size: 5vh;
     color: #ada9a9;
 }
 
 .audio {
     display: flex;
-    width: 4%;
+    width: 10vh;
     height: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .icon-mic{
-    width: 85%;
-    height: 75%;
+    width: 7vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #025A4A;
-    border-radius: 150px;
+    border-radius: 150vh;
 }
 
 .icon-mic i {
-    font-size: 20px;
+    font-size: 3.5vh;
     color: #fff;
 }
 
@@ -295,13 +284,13 @@ body {
         width: 0;
     }
     to {
-        width: 55%;
+        width: 85vh;
     }
 }
 
 @keyframes blinkCursor {
     from {
-        border-right-color: #000;
+        border-right-color: #5f5e5e;
     }
     to {
         border-right-color: transparent;
