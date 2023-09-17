@@ -73,7 +73,6 @@ body {
 .card-message{
     width: 100vw;
     height: 65vh;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +81,6 @@ body {
 .user-image {
     width: 15vh;
     height: 65vh;
-    background-color: blue;
     display: flex;
     align-items: end;
     padding-left: .4vw;
