@@ -122,12 +122,12 @@ body {
 .ballons-card::before{
     content: '';
     position: absolute;
-    width: 3vh;
+    width: 3.0vh;
     height: 3vh;
     border-left: 1px solid rgba(0, 0, 0, 0.19);
     border-bottom: 1px solid rgba(0, 0, 0, 0.211);
     left: 20.4vh;
-    top: 66vh;
+    top: 66.3vh;
     background-color: #EDEEE6;
     transform: rotate(45deg);
 }
