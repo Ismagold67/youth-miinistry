@@ -241,7 +241,7 @@
                         </div>
                         <div class="exp">
                             <p class="typing-animation">
-                                Conte-nos como foi sua experiência!
+                                Conte-nos sua experiência!
                             </p>
                         </div>
                     </div>
@@ -269,6 +269,7 @@
         const groupNameP = document.querySelector('.group-name p')
         const tec = document.querySelector('.tec')
         const tecP = document.querySelector('.tec p')
+        const ballonCards = document.querySelector('.ballons-card')
         const carouselInner = document.querySelector('.carousel-inner')
         const body = document.body
         let count = 0
@@ -284,9 +285,10 @@
             lightAndDark.style.color = '#fff'
             tec.style.backgroundColor = '#151414'
             tecP.style.color = '#fff'
-            carouselInner.style.backgroundImage = 'url(./assets/images/bkdark.png)'
+            carouselInner.style.backgroundImage = 'url(./assets/alternative-backgrounds/transformacao-mente.jpg)'
             carouselInner.style.transition = '1s'
             body.style.backgroundColor = '#000'
+            ballonCards.style.backgroundColor = '#edeee6d9'
         }
         if(count % 2 == 0){
             headChat.style.transition = '1s'
