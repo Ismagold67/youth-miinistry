@@ -287,7 +287,7 @@ body {
         width: 0;
     }
     to {
-        width: 41.5vw;
+        width: 22.3vw;
     }
 }
 
@@ -297,5 +297,57 @@ body {
     }
     to {
         border-right-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .user-image {
+        padding-left: .2em;
+    }
+    .cnt-user {
+        width: 50vw;
+        height: 14.5vh;
+      
+    }
+    .cnt-user i {
+        font-size: 14vw;
+    }
+    .cnt-user p{
+        width: 15vw;
+        margin-left: 1vw;
+        text-align: center;
+    }
+    .ballons-card {
+        width: 55vw;
+    }
+    .ballons-card p{
+        font-size: 3.3vw;
+    }
+    .tec p{
+        font-size: .88em;
+    }
+    .group-name i {
+        font-size: 1.5em;
+    }
+    .group-name p{
+        font-size: 1.5em;
+    }
+    .logo {
+        padding-left: 5.7em;
+    }
+    .logo img{
+        max-width: 4.5em;
+    }
+    .icon-mic i {
+        font-size: 1em;
+    }
+    .icon-mic {
+        width: 2.5em;
+        height: 6vh;
+    }
+    .audio {
+        width: 22vw;
+        justify-content: left;
+        padding-left: .2em;
     }
 }
